@@ -1,0 +1,158 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body {
+  background: #64397f;
+  color: #E5E5E5;
+  font-family: 'Playfair Display', serif;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto 0 auto;
+}
+
+.cta-button {
+  display: block;
+  background: #f48383;
+  color: #4b166b;
+  font-weight: bold;
+  width: 135px;
+  line-height: 35px;
+  height: 35px;
+  margin: 30px auto 20px auto;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.cta-button:hover, .cta-button:focus {
+  background: #FFE0F6;
+}
+
+.nav-bar {
+  /* background: #D99BFF; */
+  display: flex;
+  justify-content: flex-end;
+  min-height: 25px;
+  list-style: none;
+  font-family: 'Playfair Display', serif;
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+
+.nav-bar li {
+  align-text: right;
+  margin: 0 30px 0 0;
+
+}
+
+.nav-bar li a {
+  color: #E5E5E5;
+  text-decoration: none;
+}
+.nav-bar li a:hover, .nav-bar li a:focus {
+  color: #E5E5E5;
+  text-decoration: underline;
+}
+
+.presentation {  
+  margin: 100px 0 0 0;
+}
+
+h1 {
+  font-size: 48px;
+  color: #F48383;
+  margin: 20px;
+  text-align: center;
+}
+
+.header-h2 {
+  font-size: 32px;
+  color: #FFACAC;
+  margin: 20px;
+  text-align: center;
+}
+
+.header-h3 {
+  margin: 20px 20px 40px 0;
+  font-size: 32px;
+  color: white;
+}
+
+.section {
+  margin: 140px 0 140px 0;
+  padding: 0 20px 0 20px;
+}
+.section.about {
+  margin-bottom: 0;
+}
+
+/* The section class is for Projects, About me and Contact me */
+.section img {
+  width: 100%;
+  height: auto;
+}
+.section p {
+  padding: 30px 40px 20px 40px;
+  text-align: center;
+}
+.projects {
+  width: 100%;
+  font-size: 18px;
+  color: #FFE0F6;
+  display: flex;
+  margin: 0 0 60px 0;
+}
+
+.about-me-content {
+  background: #FFE0F6;
+  width: 100%;
+  font-size: 18px;
+  color: #64397f;
+  display: flex;
+  flex: 50%;
+}
+
+.about-me-content img {
+  width: 100%;
+  height: :auto;
+  max-width: 317px;
+}
+.about-me-content .cta-button:hover, .about-me-content .cta-button:focus {
+  background: #4b166b;
+  color: #FFE0F6;
+}
+
+.contact-content ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.contact-content ul img {
+  width: 48px;
+  height: auto;
+  margin: 0 15px 0 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 35px;
+  }
+  .header-h2 {
+    font-size: 25px;
+  }
+  .section {
+    margin: 80px 0 80px 0;
+  }
+  .projects {
+    display: block;
+  }
+  .about-me-content {
+    display: block;
+  }
+  .about-me-content img {
+    max-width: 100%;
+  }
+}
